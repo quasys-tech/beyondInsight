@@ -6,7 +6,8 @@ import requests
 from requests.packages.urllib3.exceptions import InsecureRequestWarning
 requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
 
-from beyondtrust_agent import settings, utils
+from .settings import settings
+from .utils import utils
 
 req = requests.Session()
 

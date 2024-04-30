@@ -6,7 +6,7 @@ import sys
 
 import logging
 
-from beyondtrust_agent import settings
+from .settings import settings
 
 import contextlib
 import OpenSSL.crypto

@@ -4,7 +4,9 @@ import logging
 import traceback
 import json
 
-from beyondtrust_agent import utils, settings, services
+from .services import services
+from .settings import settings
+from .utils import utils
 
 def get_secrets():
     """
