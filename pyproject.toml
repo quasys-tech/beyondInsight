@@ -1,0 +1,22 @@
+[build-system]
+requires = ["requests >= 2.31.0", "setuptools>=61.0", "pyOpenSSL >= 23.2.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "beyondInsight"
+version = "0.0.1"
+authors = [
+  { name="quasys", email="pam@quasys.com.tr" },
+]
+description = "The BeyondInsight Library to fetch secrets from beyondTrust."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com:quasys-tech/beyondInsight"
+Issues = "https://github.com:quasys-tech/beyondInsight/issues"

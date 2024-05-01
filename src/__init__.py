@@ -1,1 +1,0 @@
-from .controller import get_secrets

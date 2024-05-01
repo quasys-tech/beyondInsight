@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: beyondInsight
+Version: 0.0.1
+Summary: The BeyondInsight Library to fetch secrets from beyondTrust.
+Author-email: quasys <pam@quasys.com.tr>
+Project-URL: Homepage, https://github.com:quasys-tech/beyondInsight
+Project-URL: Issues, https://github.com:quasys-tech/beyondInsight/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# BeyondInsight
