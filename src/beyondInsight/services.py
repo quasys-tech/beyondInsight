@@ -6,8 +6,7 @@ import requests
 from requests.packages.urllib3.exceptions import InsecureRequestWarning
 requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
 
-from .settings import settings
-from .utils import utils
+from . import settings, utils
 
 req = requests.Session()
 

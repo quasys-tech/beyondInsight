@@ -6,7 +6,7 @@ import sys
 
 import logging
 
-from .settings import settings
+from . import settings
 
 import contextlib
 import OpenSSL.crypto

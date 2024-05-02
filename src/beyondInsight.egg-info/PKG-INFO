@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: beyondInsight
-Version: 0.0.1
+Version: 0.0.2
 Summary: The BeyondInsight Library to fetch secrets from beyondTrust.
 Author-email: quasys <pam@quasys.com.tr>
 Project-URL: Homepage, https://github.com:quasys-tech/beyondInsight
