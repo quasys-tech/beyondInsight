@@ -94,10 +94,10 @@ def get_secret_by_path(path, title, separator, send_title=True):
         Secret 
     """
 
-    url = f"{settings.BT_API_URL}/secrets-safe/secrets?path={path}&separator={separator}"
+    url = f"{settings.BT_API_URL}/secrets-safe/secrets?folderpath={path}&separator={separator}"
 
     if send_title:
-        url = f"{settings.BT_API_URL}/secrets-safe/secrets?title={title}&path={path}&separator={separator}"
+        url = f"{settings.BT_API_URL}/secrets-safe/secrets?title={title}&folderpath={path}&separator={separator}"
     response = req.get(url, headers=settings.REQUEST_HEADERS)
 
     if response.status_code == 200:
